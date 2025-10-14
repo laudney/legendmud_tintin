@@ -119,7 +119,7 @@
         {
             #LIST events[%1] create %2;
         }
-    }
+    };
     #RETURN #NOP;
 };
 

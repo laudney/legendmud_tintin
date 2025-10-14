@@ -106,9 +106,9 @@
             }
             {
                 #FORMAT map_info_text {%s, <499>%s<099>} {$map_info_text} {$exit};
-            }
+            };
             #MATH count {$count + 1};
-        }
+        };
         #FORMAT map_info_text {%s]} {$map_info_text};
         #DRAW tile $map_info_line $screen[panes][$pane_map][x1] $map_info_line $screen[panes][$pane_map][x2] {$map_info_text};
 

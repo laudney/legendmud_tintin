@@ -91,7 +91,7 @@
     {
         #MAP get {roomarea} {fogg_area} {$fogg_room};
         #LINE sub var #DELAY 0 #SHOWME $fogg_area: vnum $fogg_room;
-    }
+    };
     #UNVAR fogg_rooms;
     #UNVAR fogg_room;
     #UNVAR fogg_area;

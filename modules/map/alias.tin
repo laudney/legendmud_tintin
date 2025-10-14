@@ -95,7 +95,7 @@
         #MAP at {*nickname_list[+$cnt]} {#MAP get {roomnote} {roomnote}};
         #FORMAT roomnote {%-10s} {$roomnote};
         #SHOWME $roomnote - $roomname;
-    }
+    };
     #UNVAR nickname_list;
     #UNVAR roomname;
     #UNVAR roomnote;

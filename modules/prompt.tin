@@ -69,7 +69,7 @@
     }
     {
         #VAR prompt[leader] {$gmcp[prompt][L]};
-    }
+    };
 
     #FORMAT area_len {%L} {%gmcp[prompt][an]};
     #MATH area_len {((26 - $area_len) / 2) + $area_len};
